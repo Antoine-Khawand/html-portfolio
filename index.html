@@ -1,0 +1,126 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+
+    body {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        background-color: rgb(243, 243, 243);
+    }
+
+    h3 {
+        font-size: 18px;
+        padding-right: 590px;
+    }
+
+.navigationmenu ul {
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    float: right;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navigationmenu a {
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 0.2s, color 0.2s; /* Smooth transition for text-decoration and color */
+}
+
+.navigationmenu a:hover {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+.navigationmenu li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.navigationmenu li:last-child {
+    margin-right: 20px; 
+}
+
+.allmyprofile {
+    position: fixed;
+    left: 0;
+    padding: 50px;
+    top: 40%;
+
+}
+.box {
+    width: 900px;
+    height:400px;
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    }
+
+    .card {
+        color: rgb(148, 148, 148);
+        padding-right: 10px;
+    }
+
+    .card:hover {
+        color: rgb(175, 174, 174);
+    }
+
+    .envelope {
+        color: rgb(148, 148, 148);
+    }
+
+    .envelope:hover {
+        color: rgb(175, 174, 174);
+    }
+
+    .icons {
+        position: fixed;
+        bottom: 29px;
+        padding-left: 31px;
+    }
+</style>
+<body>
+    <div class="box">
+        <nav class="navigationmenu">
+            <ul>
+                <li><a href="../public/index.html">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="../public/about.html">About</a></li>
+                <li><a href="../public/contact.html">Get in Touch</a></li>
+            </ul>
+        </nav>
+        <div class="allmyprofile">
+            <img class="myprofile" src="../assets/images/Profile.svg" height="60"/>
+            <h3>Hello I'm Antoine. A Passionate designer and creative developer.</h3>
+        </div>
+        <div class="icons">
+        <span><a href="../public/contact.html"><i class="fa fa-address-card card"></i></a></span>
+        <span><a href="mailto:antoine.elkhawand@hotmail.com"><i class="fa fa-envelope envelope"></i></a></span>
+    </div>
+    </div>
+</body>
+
+</html>
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<!-- TODO 7: Add the Contact Me and About Me page links -->
